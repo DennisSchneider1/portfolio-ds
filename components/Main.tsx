@@ -13,9 +13,9 @@ const Main = () => {
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Clint</span>
+            Hi, I&#39;m <span className='text-[#518ce5]'> Dennis</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
+          <h1 className='py-2 text-gray-700'>A Full Stack Web Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications
             integrating back-end technologies.
@@ -39,12 +39,12 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
+            <Link href='/#contact' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href='/resume' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>

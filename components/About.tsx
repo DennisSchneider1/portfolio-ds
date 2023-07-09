@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/navLogo.png';
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
             time I run Code Commerce, a Youtube channel where I teach web
             developement and various front-end technologies.
           </p>
-          <Link href='/#projects'>
+          <Link href='/#projects' legacyBehavior>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
