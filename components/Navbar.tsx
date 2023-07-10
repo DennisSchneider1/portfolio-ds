@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect, } from 'react';
@@ -42,7 +43,7 @@ const Navbar = () => {
           <Image
             src={NavLogo}
             alt='/'
-            width='125'
+            width='50'
             height='50'
             className='cursor-pointer'
           />
@@ -116,7 +117,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+                Let&#39;s build something great together
               </p>
             </div>
           </div>
