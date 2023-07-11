@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/navLogo.png';
+import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
@@ -13,22 +13,15 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
+            Though I am most proficient in building full stack applications using Java, 
+            JavaScript, HTML and CSS, I am a quick learner and can pick up new tech stacks as
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+            Recently I have been focusing more on development of highly efficient applications with C++ and Rust.
+            This helped me to deepen my knowledge of safe and performant software development
+            and over all exites me for future advances in computer science and the industry.
           </p>
           <Link href='/#projects' legacyBehavior>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

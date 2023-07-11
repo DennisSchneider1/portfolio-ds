@@ -21,7 +21,7 @@ const Contact = () => {
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  className='rounded-xl'
                   src={ContactImg}
                   alt='/'
                 />
@@ -36,9 +36,9 @@ const Contact = () => {
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
+                <div className='flex items-center justify-around py-4'>
                   <a
-                    href=''
+                    href='https://www.linkedin.com/in/dennis-schneider-797409239/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href=''
+                    href='https://github.com/DennisSchneider1'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -55,10 +55,6 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
                   <Link href='/resume'>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
