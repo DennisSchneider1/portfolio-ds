@@ -55,19 +55,19 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#projects'>Projects</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#about'>About</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Skills</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
+              <Link href='/#contact'>Contact</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -128,6 +128,11 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
+              <Link href='/#projects' legacyBehavior>
+                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                  Projects
+                </li>
+              </Link>
               <Link href='/#about' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   About
@@ -138,9 +143,9 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href='/#projects' legacyBehavior>
+              <Link href='/#contact' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Projects
+                  Contact
                 </li>
               </Link>
               <Link href='/resume' legacyBehavior>
@@ -148,13 +153,8 @@ const Navbar = () => {
                   Resume
                 </li>
               </Link>
-              <Link href='/#contact' legacyBehavior>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
-                </li>
-              </Link>
             </ul>
-            <div className='pt-40'>
+            <div className='pt-8'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>

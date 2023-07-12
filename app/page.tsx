@@ -8,9 +8,9 @@ export default function Page() {
   return (
     <div>
     <Main />
+    <Projects />
     <About />
     <Skills />
-    <Projects />
     <Contact />
     </div>
   )
