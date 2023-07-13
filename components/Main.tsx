@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>A Full Stack Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive web applications with Java, JavaScript and Rust.
+            I’m focused on building applications with Java, Javascript, C# and C++.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

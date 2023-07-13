@@ -13,8 +13,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            Though I am most proficient in building full stack applications using Java, 
-            JavaScript, HTML and CSS, I am a quick learner and can pick up new tech stacks as
+            During my computer science degree I’ve got the chance to learn and apply many different languages and tools.
+            From ERP Systems and SQL Databases to machine learning, XR/VR development, 
+            cloud computing and computer vision, I’ve continuously expanded on what i know.
+          </p>
+          <p className='py-2 text-gray-600'>
+            Though I am most proficient in building applications using Java, 
+            JavaScript, C# and C++, I am a quick learner and can pick up new tech stacks as
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
@@ -25,7 +30,7 @@ const About = () => {
           </p>
           <Link href='/#projects' legacyBehavior>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
+              Check out some of my latest projects if you didn’t yet.
             </p>
           </Link>
         </div>

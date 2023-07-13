@@ -33,18 +33,16 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Web Development <span className='px-1'>|</span> .Net Development{' '}
-              <span className='px-1'>|</span> VR Development
+              Web Developer <span className='px-1'>|</span> XR/VR Developer
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>.Net Development</p>
-            <p className='py-2'>Web Development</p>
-            <p>VR Development</p>
+            <p className='py-2'>Web Developer</p>
+            <p>XR/VR Developer</p>
           </div>
         </div>
         <p>
-          Experience in different fields. From .Net and VR Development in C# to Web and Mobile development in Java & JavaScript.
+          From .Net and VR Development in C# to Web and Mobile development in Java & JavaScript, I have developed a diverse skillset.
         </p>
 
         {/* Skills */}
@@ -52,7 +50,6 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Full Stack Web Developer
             <span className='px-2'>|</span>Java
             <span className='px-2'>|</span>JavaScript
             <span className='px-2'>|</span>C#
@@ -63,12 +60,11 @@ const resume = () => {
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span>RESTAPI
           </p>
           <p className='py-2'>
-            <span className='font-bold'>VR Development</span>
+            <span className='font-bold'>XR/VR Development</span>
             <span className='px-2'>|</span>Unity
             <span className='px-2'>|</span>C#
             <span className='px-2'>|</span>Blender
@@ -86,7 +82,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>Full Stack Web Developer (2019 - 2020)</p>
+          <p className='py-1 italic'>Full Stack Web Developer Internship (2019 - 2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Developed a Full Stack data analysis tool with use of Java, JavaScript, HTML and CSS.
@@ -104,10 +100,36 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Konstanz, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>.Net Development (2015)</p>
+          <p className='py-1 italic'>.Net Developer Internship (2015)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Developed tool for finding errors in datasets as a .Net application.
+            </li>
+          </ul>
+        </div>
+
+        <h5 className='text-center underline text-[18px] py-4'>
+          Education
+        </h5>
+        {/* Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Hochschule Karlsruhe für Wirtschaft und Technik
+            </span>
+            <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
+          </p>
+          <p className='py-1 italic'>Bachelors in Computer Science (2020 - 2024)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Advanced courses innclude: 
+              Software Engineering, Operating Systems, Distributed Systems, ERP Systems, 
+              Advanced Database Engineering, Embeded Software, Computer Architecture, Autonomous Systems
+            </li>
+            <li>
+              Chosen courses: 
+              Cloud Computing, Team Teaching, Robotics, XR/VR Development, Computer Vision, 
+              Deadlock Analysis Modelchecking with UPAAL, Buisiness inteligence for VR
             </li>
           </ul>
         </div>
