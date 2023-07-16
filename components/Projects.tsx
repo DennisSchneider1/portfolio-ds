@@ -17,30 +17,30 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='Radiology Workflow Analyzer'
             backgroundImg={propertyImg}
             projectUrl='/property'
-            tech='React JS'
+            tech='Java, JS, Vaadin, Springboot, Tomee'
           />
           <ProjectItem
-            title='Crypto App'
+            title='Rust Chat App'
             backgroundImg={cryptoImg}
             projectUrl='/crypto'
-            tech='React JS'
+            tech='Rust, Yew'
 
           />
           <ProjectItem
-            title='Netflix App'
+            title='XR/VR Headlight Simulator & VR for Business Intelligence'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
-            tech='React JS'
+            tech='C#, Unity, Blender'
 
           />
           <ProjectItem
-            title='Twitch UI'
+            title='VW Car Configurator App'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
-            tech='Next JS'
+            tech='Java, Android Studio'
 
           />
         </div>

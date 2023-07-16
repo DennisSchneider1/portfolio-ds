@@ -119,7 +119,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>Bachelors in Computer Science (2020 - 2024)</p>
+          <p className='py-1 italic'>Bachelors in Computer Science (10.2016 - 02.2024)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Advanced courses innclude: 
