@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/navLogo.png';
-import cryptoImg from '../public/assets/navLogo.png'
-import netflixImg from '../public/assets/navLogo.png'
-import twitchImg from '../public/assets/navLogo.png'
+import RWVImg from '../public/assets/rwv2.png';
+import AIBotImg from '../public/assets/ai-bot2.png'
+import VRImg from '../public/assets/eqs2.png'
+import ConfiguratorImg from '../public/assets/vw2.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,29 +17,29 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Radiology Workflow Analyzer'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
+            title='Radiology Workflow Visualiser'
+            backgroundImg={RWVImg}
+            projectUrl='/rwv'
             tech='Java, JS, Vaadin, Springboot, Tomee'
           />
           <ProjectItem
-            title='Rust Chat App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='Rust, Yew'
+            title='AI Assistant - Python Discord-Bot'
+            backgroundImg={AIBotImg}
+            projectUrl='/ai-bot'
+            tech='Python, Langchain'
 
           />
           <ProjectItem
             title='XR/VR Headlight Simulator & VR for Business Intelligence'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            backgroundImg={VRImg}
+            projectUrl='/vr'
             tech='C#, Unity, Blender'
 
           />
           <ProjectItem
             title='VW Car Configurator App'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            backgroundImg={ConfiguratorImg}
+            projectUrl='/car-configurator'
             tech='Java, Android Studio'
 
           />

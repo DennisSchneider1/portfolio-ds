@@ -2,7 +2,7 @@ import '../app/globals.css';
 import Navbar from '../components/Navbar';
 
 export const metadata = {
-  title: 'Dennis | Fullstack Developer',
+  title: 'Dennis | Software Developer',
   description: 'Portfolio Website',
 }
 

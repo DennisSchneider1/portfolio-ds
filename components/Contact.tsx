@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
@@ -28,7 +27,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Dennis Schneider</h2>
-                <p>Full Stack Developer</p>
+                <p>Software Developer</p>
                 <p className='py-4'>
                   I am available for full-time positions. Contact
                   me and let&apos;s talk.

@@ -14,7 +14,7 @@ const About = () => {
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
             During my computer science degree I’ve got the chance to learn and apply many different languages and tools.
-            From ERP Systems and SQL Databases to machine learning, XR/VR development, 
+            From machine learning, XR/VR development, 
             cloud computing and computer vision, I’ve continuously expanded on what i know.
           </p>
           <p className='py-2 text-gray-600'>

@@ -33,11 +33,11 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Web Developer <span className='px-1'>|</span> XR/VR Developer
+              Software Developer <span className='px-1'>|</span> XR/VR Developer
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p className='py-2'>Web Developer</p>
+            <p className='py-2'>Software Developer</p>
             <p>XR/VR Developer</p>
           </div>
         </div>
@@ -119,7 +119,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>Bachelors in Computer Science (10.2016 - 02.2024)</p>
+          <p className='py-1 italic'>Bachelors in Computer Science (2024)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Advanced courses innclude: 
