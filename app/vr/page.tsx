@@ -17,8 +17,8 @@ const vr_project = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Radiology Workflow Visualizer</h2>
-          <h3>Java / Javascript / Springboot / Vaadin</h3>
+          <h2 className='py-2'>XR/VR Projects</h2>
+          <h3>C# / Unity / Blender</h3>
         </div>
       </div>
 
@@ -27,13 +27,19 @@ const vr_project = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            I built multiple VR/XR based projects using mostly C# and the Unity game engine.
+          </p>
+          <p>
+            The XR/VR headlight simulation was created in cooperation with Mercedes Benz Design
+            and Hochschule Karlsruhe. The goal of the project is the exploration of synchronizing
+            a real world representation of a object with the virtual form. This is then used as aid
+            in the design process of car components such as the headlights of the Mercedes EQS.
+          </p>
+          <p>
+            Another project focuses on the application of VR technologies in the area of
+            Business Intelligence. Here exchange student data was processed and visualized.
+            The application included serval locality based visualizations such as a mutable
+            globe and the 3D plotting of data.
           </p>
           {/*
           <a
@@ -57,19 +63,16 @@ const vr_project = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Java
+                <RiRadioButtonFill className='pr-1' /> C#
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Unity
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Springboot
+                <RiRadioButtonFill className='pr-1' /> Blender
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vaadin
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tomee
+                <RiRadioButtonFill className='pr-1' /> Git LFS
               </p>
             </div>
           </div>

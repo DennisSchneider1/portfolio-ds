@@ -17,8 +17,8 @@ const ai_bot = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Radiology Workflow Visualizer</h2>
-          <h3>Java / Javascript / Springboot / Vaadin</h3>
+          <h2 className='py-2'>AI Assistant</h2>
+          <h3>Python / Langchain / discord.py</h3>
         </div>
       </div>
 
@@ -27,13 +27,13 @@ const ai_bot = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            This application was made with Python and Langchain to incorporate
+            large language model capabilities into a discord bot. Special attention
+            for this project is a memory system using multipe technologies to achieve
+            extended short term and long term memory functionality. These technologies
+            include a summarization system, vector database and LoRA.
+            Additionaly, in order to be less restricted in usage and adaptability of the llm
+            an open source llama model was chosen and used on local consumer grade hardware.
           </p>
           {/*
           <a
@@ -57,19 +57,19 @@ const ai_bot = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Java
+                <RiRadioButtonFill className='pr-1' /> Python
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Langchain
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Springboot
+                <RiRadioButtonFill className='pr-1' /> discord.py
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vaadin
+                <RiRadioButtonFill className='pr-1' /> llm-web-ui
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tomee
+                <RiRadioButtonFill className='pr-1' /> CUDA
               </p>
             </div>
           </div>

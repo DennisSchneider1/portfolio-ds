@@ -17,8 +17,8 @@ const car_configurator = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Radiology Workflow Visualizer</h2>
-          <h3>Java / Javascript / Springboot / Vaadin</h3>
+          <h2 className='py-2'>VW Car Configurator</h2>
+          <h3>Java / Android Studio</h3>
         </div>
       </div>
 
@@ -27,13 +27,10 @@ const car_configurator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            This app was made with Java and Android Studio. The functionalities include
+            a multiple step car configuration process, and additionaly loading, saving and
+            displaying configurations. Data for the configurator was accessed through
+            the VW Group API as part of a coding competition. 
           </p>
           {/*
           <a
@@ -60,16 +57,10 @@ const car_configurator = () => {
                 <RiRadioButtonFill className='pr-1' /> Java
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Android Studio
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Springboot
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vaadin
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tomee
+                <RiRadioButtonFill className='pr-1' /> VW Group API
               </p>
             </div>
           </div>

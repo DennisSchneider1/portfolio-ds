@@ -27,13 +27,11 @@ const rwv = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            I built this application with Java and Javascript using the Vaadin framework.
+            This app features a search function for specific database objects and multiple
+            visualization options as result. The options include a fully functional calendar
+            view to track the timeline of events, a graph view to visualize and qickly switch
+            between tracked objects, and a usecase specific customizable table view of the data. 
           </p>
           {/*
           <a
