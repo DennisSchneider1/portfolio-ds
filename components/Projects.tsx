@@ -20,7 +20,7 @@ const Projects = () => {
             title='Radiology Workflow Visualiser'
             backgroundImg={RWVImg}
             projectUrl='/rwv'
-            tech='Java, JS, Vaadin, Springboot, Tomee'
+            tech='Java, Javascript'
           />
           <ProjectItem
             title='AI Assistant - Python Discord-Bot'
