@@ -27,10 +27,10 @@ const car_configurator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was made with Java and Android Studio. The functionalities include
-            a multiple step car configuration process, and additionaly loading, saving and
-            displaying configurations. Data for the configurator was accessed through
-            the VW Group API as part of a coding competition. 
+            I created this application using Java and Android Studio, focusing on delivering practical functionality. 
+            The core features comprise a multi-step car configuration process, complemented by the ability to load, 
+            save, and display configurations seamlessly.
+            Notably, data for the configurator was sourced through the VW Group API as part of a coding competition. 
           </p>
           {/*
           <a

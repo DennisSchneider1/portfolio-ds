@@ -29,18 +29,25 @@ const vr_project = () => {
           <p>
             I built multiple VR/XR based projects using mostly C# and the Unity game engine.
           </p>
+          <div className='py-4'>
+          <h3>XR/VR Headlight Simulator</h3>
           <p>
-            The XR/VR headlight simulation was created in cooperation with Mercedes Benz Design
-            and Hochschule Karlsruhe. The goal of the project is the exploration of synchronizing
-            a real world representation of a object with the virtual form. This is then used as aid
-            in the design process of car components such as the headlights of the Mercedes EQS.
+            I collaborated on the XR/VR headlight simulation project in partnership with Mercedes Benz Design and Hochschule Karlsruhe. 
+            The primary objective of this project was to investigate the synchronization between real-world object representations and their virtual counterparts.
           </p>
           <p>
-            Another project focuses on the application of VR technologies in the area of
-            Business Intelligence. Here exchange student data was processed and visualized.
-            The application included serval locality based visualizations such as a mutable
-            globe and the 3D plotting of data.
+            This synchronization was employed as a valuable tool in the design process of automotive components, 
+            specifically focusing on the headlights of the Mercedes EQS.
           </p>
+          </div>
+          <div className='py-4'>
+          <h3>Business Intelligence for VR</h3>
+          <p>
+          This project revolves around the practical use of VR technologies within the domain of Business Intelligence. 
+          It involved the processing and visualization of exchange student data, with a specific emphasis on locality-based visualizations.
+          The application featured various locality-based visualizations, including a mutable globe and 3D plotting of data.
+          </p>
+          </div>
           {/*
           <a
             href=''

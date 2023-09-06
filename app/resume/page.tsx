@@ -54,7 +54,7 @@ const resume = () => {
             <span className='px-2'>|</span>JavaScript
             <span className='px-2'>|</span>C#
             <span className='px-2'>|</span>C++
-            <span className='px-2'>|</span>Rust
+            <span className='px-2'>|</span>Python
             <span className='px-2'>|</span>HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>React
@@ -88,7 +88,7 @@ const resume = () => {
               Developed a Full Stack data analysis tool with use of Java, JavaScript, HTML and CSS.
             </li>
             <li>
-              Comrehensively documented with a wiki as a userguide.
+              Comprehensively documented with a wiki as a userguide.
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              h&l Software GmbH
+              H&L Software GmbH
             </span>
             <span className='px-2'>|</span>Konstanz, Baden-Württemberg
           </p>
@@ -104,6 +104,21 @@ const resume = () => {
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Developed tool for finding errors in datasets as a .Net application.
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              Karlsruher Institute of Technology
+            </span>
+            <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
+          </p>
+          <p className='py-1 italic'>Software Developer Internship (2013)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Got into contact and gained insight of serval software development related positions.
             </li>
           </ul>
         </div>
@@ -122,57 +137,30 @@ const resume = () => {
           <p className='py-1 italic'>Bachelors in Computer Science (2024)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Advanced courses innclude: 
-              Software Engineering, Operating Systems, Distributed Systems, ERP Systems, 
-              Advanced Database Engineering, Embeded Software, Computer Architecture, Autonomous Systems
+              Used technologies: Java, C, C++, C#, Python, Go, Maple, LEGv8, VHDL, Verilog, ABAP, XML, JSON
             </li>
             <li>
-              Chosen courses: 
+              Additional courses: 
               Cloud Computing, Team Teaching, Robotics, XR/VR Development, Computer Vision, 
               Deadlock Analysis Modelchecking with UPAAL, Buisiness inteligence for VR
             </li>
           </ul>
         </div>
 
-        {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Development Experience
-        </h5>
-      
-        {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Car Configurator Android App (2018)
+            Technisches Berufskolleg I & II
             </span>
-            <span className='px-2'>|</span>VW Group
+            <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
+          <p className='py-1 italic'>Fachhochschulreife (2014-2016)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Android App wirtten in Java to configure, display, save and load car cofigurations of the VW Group.
+              Learned foundations in software development and database management in Java, PHP, html and css.
             </li>
             <li>
-              Data access through the official VW Group REST API.
-            </li>
-            <li>
-              Made as part of a code competition of the VW Group.
-            </li>
-          </ul>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Discord Bot - E-Card Bot (2018)
-            </span>
-            <span className='px-2'>|</span>Private use
-          </p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Discord Bot with quality of life features and serval games.
-            </li>
-            <li>
-              Written in Java to interact with Discords JDA API.
-            </li>
-            <li>
-              Managing persisting user data in local file storage.
+              Additionally gained serval techincal skills such as general knowledge of PC hardware and usage of Linux.
             </li>
           </ul>
         </div>

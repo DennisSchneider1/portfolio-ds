@@ -27,11 +27,11 @@ const rwv = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application with Java and Javascript using the Vaadin framework.
-            This app features a search function for specific database objects and multiple
-            visualization options as result. The options include a fully functional calendar
-            view to track the timeline of events, a graph view to visualize and qickly switch
-            between tracked objects, and a usecase specific customizable table view of the data. 
+            I developed this application using Java and JavaScript, leveraging the Vaadin framework. 
+            The core functionality of the app revolves around a robust search feature that allows users to locate specific database objects efficiently.
+            The application offers various visualization options, including a functional calendar view for event timeline tracking, 
+            a dynamic graph view for object visualization and quick switching, 
+            and a customizable table view tailored to the specific use case.
           </p>
           {/*
           <a

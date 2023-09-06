@@ -27,13 +27,12 @@ const ai_bot = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This application was made with Python and Langchain to incorporate
-            large language model capabilities into a discord bot. Special attention
-            for this project is a memory system using multipe technologies to achieve
-            extended short term and long term memory functionality. These technologies
-            include a summarization system, vector database and LoRA.
-            Additionaly, in order to be less restricted in usage and adaptability of the llm
-            an open source llama model was chosen and used on local consumer grade hardware.
+            I developed this application using Python and Langchain to harness the capabilities of large language models within a Discord bot. 
+            A standout feature of this project is the implementation of a sophisticated memory system, 
+            leveraging a variety of technologies to achieve both extended short-term and long-term memory functionality.
+            These technologies include a summarization system, a vector database, and LoRA integration. 
+            To enhance flexibility and adaptability, an open-source llama model was selected and deployed on local consumer-grade hardware, 
+            ensuring unrestricted usage and performance optimization.
           </p>
           {/*
           <a
