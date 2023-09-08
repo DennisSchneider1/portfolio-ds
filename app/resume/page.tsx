@@ -33,16 +33,18 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Software Developer <span className='px-1'>|</span> XR/VR Developer
+              Software Developer <span className='px-1'>|</span> Full Stack Developer <span className='px-1'>|</span> XR/VR Developer
             </p>
           </div>
           <div className='block sm:hidden'>
             <p className='py-2'>Software Developer</p>
-            <p>XR/VR Developer</p>
+            <p className='py-2'>Full Stack Developer</p>
+            <p className='py-2'>XR/VR Developer</p>
           </div>
         </div>
         <p>
-          From .Net and VR Development in C# to Web and Mobile development in Java & JavaScript, I have developed a diverse skillset.
+          I’m Dennis Schneider, a software developer with experience in .Net and XR/VR Development in C# and 
+          Web & Mobile development in Java & JavaScript.
         </p>
 
         {/* Skills */}
@@ -62,6 +64,15 @@ const resume = () => {
             <span className='px-2'>|</span>SQL
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span>RESTAPI
+          </p>
+          <p className='py-2'>
+            <span className='font-bold'>Java Development</span>
+            <span className='px-2'>|</span>Springboot
+            <span className='px-2'>|</span>Vaadin
+            <span className='px-2'>|</span>Maven
+            <span className='px-2'>|</span>Jenkins
+            <span className='px-2'>|</span>Jira
+            <span className='px-2'>|</span>Tomee
           </p>
           <p className='py-2'>
             <span className='font-bold'>XR/VR Development</span>
@@ -134,7 +145,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>Bachelors in Computer Science (2024)</p>
+          <p className='py-1 italic'>Bachelors in Computer Science (2016-2024)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Used technologies: Java, C, C++, C#, Python, Go, Maple, LEGv8, VHDL, Verilog, ABAP, XML, JSON
