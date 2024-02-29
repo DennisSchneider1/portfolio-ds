@@ -100,7 +100,7 @@ const Skills = () => {
                 <Image src={NextJS} width={ImgSize} height={ImgSize} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next.js 13</h3>
+                <h3>Next.js</h3>
               </div>
             </div>
           </div>
