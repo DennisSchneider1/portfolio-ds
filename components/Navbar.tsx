@@ -63,9 +63,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/*<li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
-            </li>
+            </li>*/}
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
             </li>
@@ -143,11 +143,11 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href='/#contact' legacyBehavior>
+              {/*<Link href='/#contact' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
-              </Link>
+              </Link>*/}
               <Link href='/resume' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
