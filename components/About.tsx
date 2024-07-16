@@ -16,21 +16,21 @@ const About = () => {
             Hello, I’m Dennis Schneider, a software developer from Karlsruhe. 
           </p>
           <p className='py-2 text-gray-600'>
-            My professional experience includes notable companies and institutions, 
+            My professional experience includes several companies and institutions, 
             including the Karlsruher Institute of Technology, H&L Software GmbH, and medavis GmbH. 
-            In my time there I was mainly focusing on software development in Java and .Net environments as a fullstack developer.
+            In my time there I was mainly focusing on software development in either Java or .Net environments as a fullstack developer.
           </p>
           <p className='py-2 text-gray-600'>
             My education is built on a strong technical background, 
             starting with my time at Technisches Berufskolleg I & II, 
             where I gained a solid understanding of programming fundamentals and hardware knowledge. 
-            Currently, I’m completing my computer science degree, set to graduate in 2024.
+            Currently, I’m completing my computer science degree, set to graduate in march of 2025.
           </p>
           <p className='py-2 text-gray-600'>
-            I also have several personal projects, here are just a few examples.
+            I also have quite a few personal projects, here are just a few examples.
             Unity VR Projects using C# aiming for a realistic and comfortable experience and high performance in mind.
             Multiple chatbots, mostly Java and Python-based, integrating Language models and Databases.
-            A car configurator Android app developed in Java.
+            A car configurator Android app developed in Java. yt-dlp clients in Python using qt and in Rust using iced.
           </p>
           <p className='py-2 text-gray-600'>
             I’m always up for a new challenge, so feel free to explore my portfolio and reach out to collaborate on exciting projects. 

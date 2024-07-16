@@ -11,8 +11,7 @@ import Python from '../public/assets/skills/Python-logo.png';
 import Java from '../public/assets/skills/java.png';
 import Cpp from '../public/assets/skills/c++.png';
 import CSharp from '../public/assets/skills/c-sharp.png';
-
-
+import Rust from '../public/assets/skills/rust.png';
 
 let ImgSize:number = 64;
 const Skills = () => {
@@ -71,6 +70,16 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Python</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Rust} width={ImgSize} height={ImgSize} alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Rust</h3>
               </div>
             </div>
           </div>

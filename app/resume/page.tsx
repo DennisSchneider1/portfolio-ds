@@ -143,7 +143,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>Bachelors in Computer Science (2024)</p>
+          <p className='py-1 italic'>Bachelors in Computer Science (02/2025)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Used technologies: Java, C, C++, C#, Python, Go, Maple, LEGv8, VHDL, Verilog, ABAP, XML, JSON
@@ -163,7 +163,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karlsruhe, Baden-Württemberg
           </p>
-          <p className='py-1 italic'>Fachhochschulreife (2016)</p>
+          <p className='py-1 italic'>Fachhochschulreife (06/2016)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Learned foundations in software development and database management in Java, PHP, html and css.
