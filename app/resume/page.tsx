@@ -33,11 +33,11 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Full Stack Developer <span className='px-1'>|</span> XR/VR Developer
+              Backend Developer <span className='px-1'>|</span> XR/VR Developer
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p className='py-2'>Full Stack Developer</p>
+            <p className='py-2'>Backend Developer</p>
             <p className='py-2'>XR/VR Developer</p>
           </div>
         </div>
@@ -58,13 +58,18 @@ const resume = () => {
             <span className='px-2'>|</span>C
             <span className='px-2'>|</span>Go
             <span className='px-2'>|</span>Python
-            <span className='px-2'>|</span>HTML
-            <span className='px-2'>|</span>CSS
+            <span className='px-2'>|</span>Rust
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
+            <span className='px-2'>|</span>PostgreSQL
+            <span className='px-2'>|</span>REST
+            <span className='px-2'>|</span>GraphQL
+            <span className='px-2'>|</span>Flask
+            <span className='px-2'>|</span>Docker
+            <span className='px-2'>|</span>Postman
+            <span className='px-2'>|</span>HTML
+            <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span>RESTAPI
           </p>
           <p className='py-2'>
             <span className='font-bold'>Java Development</span>
