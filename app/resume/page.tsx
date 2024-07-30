@@ -42,7 +42,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          I’m Dennis Schneider, a software developer with experience in Web, Mobile and XR/VR Development. Specialized in Java, JavaScript, C# and C++.
+          I’m Dennis Schneider, a software developer with experience in Web, Mobile and XR/VR Development. Specialized in C#, Python, Rust and Go.
         </p>
 
         {/* Skills */}
