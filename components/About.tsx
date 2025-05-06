@@ -24,7 +24,7 @@ const About = () => {
             My education is built on a strong technical background, 
             starting with my time at Technisches Berufskolleg I & II, 
             where I gained a solid understanding of programming fundamentals and hardware knowledge. 
-            Currently, I’m completing my computer science degree, set to graduate in march of 2025.
+            Currently, I’m completing my computer science degree, set to graduate in july of 2025.
           </p>
           <p className='py-2 text-gray-600'>
             I also have quite a few personal projects, here are just a few examples.
